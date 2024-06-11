@@ -1,0 +1,11 @@
+services:
+    node:
+        build: ./node
+        ports:
+            - "8081:80"
+        healthcheck:
+            test: ["CMD", "curl", "-f", "http://localhost/health"]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 10s

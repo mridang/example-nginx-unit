@@ -1,0 +1,10 @@
+{
+  "name": "node",
+  "main": "main.js",
+  "scripts": {
+	"build": "exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
