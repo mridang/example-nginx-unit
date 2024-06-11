@@ -7,7 +7,7 @@
 
   "applications": {
     "express": {
-      "processes": 9,
+      "processes": 10,
       "type": "external",
       "working_directory": "/app",
       "executable": "/usr/bin/env",

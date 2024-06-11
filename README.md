@@ -1,5 +1,5 @@
-This project is a sample project to set up Nginx Unit as an application
-server.
+This project is a sample project to set up [Nginx Unit](https://unit.nginx.org/)
+as an application server.
 
 > NGINX is one of the most popular web servers and reverse proxies
 available today. It offers high performance, almost infinite
@@ -12,7 +12,8 @@ The best part about Nginx Unit that it provides a consistent abstraction
 over all the multitude of languages and frameworks available today.
 
 Node.js itself doesn't really provide a solution here, which has spawned a host of
-solutions like PM2, forever. PHP as well has ended up with a plethora of
+solutions like [PM2](https://pm2.keymetrics.io/), [Forever](https://phpforever.com/)
+and [StrongPM](https://strong-pm.io/). PHP as well has ended up with a plethora of
 options [Swoole](https://openswoole.com/), [Roadrunner](https://roadrunner.dev/)
 [FrankenPHP](https://frankenphp.dev/).
 
